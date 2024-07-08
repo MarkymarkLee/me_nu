@@ -1,0 +1,48 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectMode": "cover",
+    "url": "https://menu-messaging-line-bot.firebaseapp.com/static/images/"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Brown Cafe",
+        "wrap": true
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "初始設定",
+          "text": "初始設定"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "初始設定",
+          "text": "初始設定"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}

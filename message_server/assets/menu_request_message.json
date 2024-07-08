@@ -1,0 +1,42 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "嘿！把你的菜單丟上來吧，傳個菜單給 Me_nu，讓我們幫你挑出最讚的餐點！",
+          "wrap": true
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "開啟相機",
+            "uri": "https://line.me/R/nv/camera/single"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "傳送位置",
+            "uri": "https://line.me/R/nv/location/"
+          }
+        }
+      ],
+      "flex": 0
+    }
+  }

@@ -1,0 +1,43 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "設定完成！感謝你的耐心。我們已經記錄下你的飲食偏好，現在你可以開始享受個性化的餐點推薦了。準備好體驗美食了嗎？",
+        "wrap": true
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "確認飲食偏好",
+          "uri": "https://liff.line.me/2005733926-rxZjpKdP"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "確認完畢",
+          "data": "hello",
+          "inputOption": "openRichMenu"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
